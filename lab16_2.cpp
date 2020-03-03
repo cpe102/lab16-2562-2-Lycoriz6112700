@@ -18,4 +18,5 @@ int main(){
 	cout << p;	
 	delete [] p;
 	return 0;
+	
 }

@@ -1,7 +1,13 @@
 #include<iostream>
 using namespace std;
 
-//Write the definition of myString() here
+char myString(char *x,int y){
+	char *z = new char;
+	for (int i = 0; i < y; i++){
+		z[i]='A'+i;
+		cout << z[i];
+	}
+}
 
 int main(){
 	char *p;
